@@ -191,9 +191,9 @@ if __name__ == "__main__":
     # init
     demo = guba_comments(
         config=config,
-        secCode="002611",
+        secCode="000725",
         MongoDB=True,
-        collectionName="东方精工",
+        collectionName="京东方A",
         full_text=True,
     )
 

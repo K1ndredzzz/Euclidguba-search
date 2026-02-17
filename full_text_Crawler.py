@@ -10,7 +10,7 @@ class FullTextCrawler(ThreadUrlCrawler):
     header = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:61.0) Gecko/20100101 Firefox/61.0",
     }
-    mongo_client = MongoClient("guba", "东方精工")
+    mongo_client = MongoClient("guba", "京东方A")
     failed_proxies = {}
     proxy_fail_times_treshold = 16
 
